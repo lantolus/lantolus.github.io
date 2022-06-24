@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.history_header {
+  margin-top: 150px;
+  padding: 50px;
+  text-align: center;
+  color: #aea790;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+}
+
+.history_container {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #acaaa342;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.history_container .utulna_image {
+  height: 370px;
+  width: 650px;
+  padding: 15px;
+}
+
+.history_container .chata_image {
+  height: 370px;
+  width: 1125px;
+  padding: 15px;
+}
+
+.history_container .history_container_header .history_container_name {
+  padding: 15px;
+  color: #aea790;
+}
+
+.history_container .history_container_header .history_container_text {
+  padding: 15px;
+  font-size: 18px;
+}
