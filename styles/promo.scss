@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.promo {
+    height: 1500px;
+    .about_home_left {
+        flex: 1;
+
+        .text_home {
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin: 100px;
+            padding: 5px;
+            left: 150px;
+            top: 90px;
+            
+            .about_name{
+                color: #aea790;
+                text-decoration: overline;
+                
+            }
+        
+            .about_cottage {
+                padding: 30px;
+                margin: 5px;
+                font-size: 18px;
+                
+            }
+        }
+    
+    }
+    
+    .about_home_right {
+        
+        
+        .pic_text {
+            position: relative;
+            font-family: 'Quicksand', sans-serif;
+            
+            .small_pic {
+                width: 500px;;
+                height: 450px;
+                position: absolute;
+                top: -160px;
+                left: 60%;
+                transform: translate(-50%, -50%);
+                border-radius: 5px 5px 5px 5px;
+                
+                
+            }
+    
+            .list {
+                position: absolute;
+                top: -60px;
+                left: 72%;
+                transform: translate(-50%, -50%);
+                border: 2px solid #aea790;
+                border-radius: 5px 5px 5px 5px;
+                background-color: aliceblue;
+                width: 300px;
+                height: 400px;
+                padding: 35px;
+                
+                
+                .fa-map-marker {
+                    color: #aea790;
+                }
+                
+                ul {
+                    list-style: none;
+
+                }
+                .name_location {
+                    color: #aea790;
+                    font-size: 20px;
+                    font-weight:bold;
+                    font-style: normal;
+                    padding: 15px;
+                    line-height: 60px;
+                }
+                .plain_text {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    
+}

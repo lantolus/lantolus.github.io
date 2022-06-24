@@ -1,0 +1,63 @@
+.location_body {
+    height: 1800px;
+
+    .location_header {
+        font-family: 'Quicksand', sans-serif;
+        margin: 250px;
+        text-align: center;
+        .location_name {
+            color: #aea790;
+            font-size: 32px;
+        }
+    
+        .location_name_text {
+            padding: 30px;
+            font-size: 18px;
+        }
+    }
+
+    .empty_line {
+        background-color: #aea790;
+    }
+
+    .location_container {
+        font-family: 'Quicksand', sans-serif;
+        //border: 4px solid #aea790;
+        //border-radius: 10px 10px 10px 10px;
+        background-color: #acaaa342;
+        display: flex;
+        margin-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        .castle_image {
+            height: 370px;
+            width: 650px;
+            padding: 15px;
+        }
+
+        .cave_image {
+            height: 370px;
+            width: 1125px;
+            padding: 15px;
+        }
+
+        .canyon_image {
+            height: 370px;
+            width: 1125px;
+            padding: 15px;
+        }
+
+        .location_container_header {
+            .location_container_name {
+                padding: 15px;
+                color: #aea790;
+            }
+
+            .location_container_text {
+                padding: 15px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+

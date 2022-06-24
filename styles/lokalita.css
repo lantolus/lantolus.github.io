@@ -1,0 +1,62 @@
+.location_body {
+  height: 1800px;
+}
+
+.location_body .location_header {
+  font-family: 'Quicksand', sans-serif;
+  margin: 250px;
+  text-align: center;
+}
+
+.location_body .location_header .location_name {
+  color: #aea790;
+  font-size: 32px;
+}
+
+.location_body .location_header .location_name_text {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.location_body .empty_line {
+  background-color: #aea790;
+}
+
+.location_body .location_container {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #acaaa342;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.location_body .location_container .castle_image {
+  height: 370px;
+  width: 650px;
+  padding: 15px;
+}
+
+.location_body .location_container .cave_image {
+  height: 370px;
+  width: 1125px;
+  padding: 15px;
+}
+
+.location_body .location_container .canyon_image {
+  height: 370px;
+  width: 1125px;
+  padding: 15px;
+}
+
+.location_body .location_container .location_container_header .location_container_name {
+  padding: 15px;
+  color: #aea790;
+}
+
+.location_body .location_container .location_container_header .location_container_text {
+  padding: 15px;
+  font-size: 18px;
+}
