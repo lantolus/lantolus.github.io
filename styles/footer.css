@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 footer {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: #aea790;
   padding: 50px;
   color: aliceblue;
@@ -14,9 +14,7 @@ footer {
   color: aliceblue;
   padding: 5px;
 }
-
 .fa-instagram:hover {
   color: #833AB4;
-  -webkit-transition: 1s;
   transition: 1s;
-}
+}/*# sourceMappingURL=footer.css.map */

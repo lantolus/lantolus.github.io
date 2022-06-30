@@ -5,7 +5,7 @@
 
 .contact_message {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #aea790;
   font-size: 60px;
   font-weight: 900;
@@ -15,39 +15,34 @@
 
 .contact_text {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 35px;
   margin: 50px;
 }
 
 .icons {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-decoration: none;
   color: black;
   font-size: 25px;
   margin: 50px;
   padding: 20px;
 }
-
 .icons .phone {
   color: #aea790;
 }
-
 .icons .phone_a {
   text-decoration: none;
   color: black;
 }
-
 .icons .email {
   color: #aea790;
 }
-
 .icons .email_a {
   text-decoration: none;
   color: black;
 }
-
 .icons .fa-map-marker {
   color: #aea790;
 }
@@ -57,14 +52,12 @@
   padding: 20px;
   background-color: #aea790;
 }
-
 .map .google_map {
   width: 1100px;
   height: 700px;
 }
-
 .map .map_header {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   padding: 20px;
   color: aliceblue;
-}
+}/*# sourceMappingURL=kontakt.css.map */
