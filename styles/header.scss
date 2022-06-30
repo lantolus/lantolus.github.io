@@ -25,8 +25,8 @@
     justify-content: center;
     align-items: center;
     column-gap: 50px;
-    // margin: 20px;
-    // padding: 20px;
+    margin: 20px;
+    padding: 20px;
   }
 
   // .fa-bed {
@@ -80,11 +80,6 @@
 .nav a:hover {
   color: #23c7fa;
 }
-@media (min-width: 470px) {
-  .nav ul li {
-    margin-left: 2em;
-  }
-}
 .nav-main {
   display: flex;
   position: absolute;
@@ -97,34 +92,19 @@
   overflow: hidden;
   transition: left 500ms ease-in-out;
 }
-.nav-main ul {
-  height: 50vh;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-basis: 100%;
-}
-.nav-main ul li {
-  display: flex;
-  flex: 1 1 auto;
-}
 .nav-main a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1 1 auto;
 }
-.nav-main ul li a:hover {
-  color: #515f67;
-  color: #23c7fa;
-}
 @media (min-width: 768px) {
   .nav-main {
     position: initial;
     justify-content: flex-end;
-    padding-top: 0.8em;
     display: flex;
     margin-top: 0;
-    height: 3.5em;
+    height: initial;
     background: none;
   }
   .nav-main ul {
