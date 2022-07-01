@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.promo {
+  height: 1500px;
+}
+
+.promo .about_home_left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.promo .about_home_left .text_home {
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 100px;
+  padding: 5px;
+  left: 150px;
+  top: 90px;
+}
+
+.promo .about_home_left .text_home .about_name {
+  color: #aea790;
+  text-decoration: overline;
+}
+
+.promo .about_home_left .text_home .about_cottage {
+  padding: 30px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.promo .about_home_right .pic_text {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.promo .about_home_right .pic_text .small_pic {
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  top: -160px;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.promo .about_home_right .pic_text .list {
+  position: absolute;
+  top: -60px;
+  left: 72%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 2px solid #aea790;
+  border-radius: 5px 5px 5px 5px;
+  background-color: aliceblue;
+  width: 300px;
+  height: 400px;
+  padding: 35px;
+}
+
+.promo .about_home_right .pic_text .list .fa-map-marker {
+  color: #aea790;
+}
+
+.promo .about_home_right .pic_text .list ul {
+  list-style: none;
+}
+
+.promo .about_home_right .pic_text .list .name_location {
+  color: #aea790;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  padding: 15px;
+  line-height: 60px;
+}
+
+.promo .about_home_right .pic_text .list .plain_text {
+  font-size: 18px;
+}
+
+.promo .pictures_home {
+  margin-top: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo .pictures_home .gallery_left {
+  margin: 20px;
+}
+
+.promo .pictures_home .gallery_left .picture_top {
+  width: 500px;
+  height: 400px;
+}
+
+.promo .pictures_home .info_right {
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+}

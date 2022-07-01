@@ -1,0 +1,9 @@
+.cennik {
+  height: 600px;
+  text-align: center;
+  margin: 300px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.contacts {
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #aea790;
+  padding: 30px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.fa-instagram:hover {
+  color: #833AB4;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
