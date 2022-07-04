@@ -12,16 +12,16 @@
   font-family: "Quicksand", sans-serif;
   background-color: rgba(172, 170, 163, 0.2588235294);
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
+  justify-content: space-around;
 }
 .history_container .utulna_image {
   height: 370px;
-  width: 650px;
   padding: 15px;
 }
 .history_container .chata_image {
   height: 370px;
-  width: 1125px;
   padding: 15px;
 }
 .history_container .history_container_header .history_container_name {

@@ -30,6 +30,14 @@
   margin: 10px 0;
   margin-left: 9%;
 }
+@media (min-width: 768px) {
+  .head .name {
+    float: none;
+    margin: 0;
+    text-decoration: overline;
+    width: 30%;
+  }
+}
 .head .button {
   text-decoration: none;
   color: #aea790;
@@ -54,6 +62,9 @@
 @media (min-width: 768px) {
   .nav {
     flex-direction: row;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: normal;
   }
 }
 .nav a {
@@ -76,14 +87,6 @@
   overflow: hidden;
   transition: left 500ms ease-in-out;
 }
-
-.nav-main a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1 1 auto;
-}
-
 @media (min-width: 768px) {
   .nav-main {
     position: initial;
@@ -93,17 +96,15 @@
     height: initial;
     background: none;
   }
-
-  .nav-main ul {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-
-  .nav-main ul li {
-    align-items: baseline;
-    flex: 0 0 auto;
-  }
 }
+
+.nav-main a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
 .nav-main--open {
   left: 0;
 }
