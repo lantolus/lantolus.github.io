@@ -85,5 +85,46 @@
             }
         }
     }
-    
+    .pictures_home {
+        margin-top: 400px;
+        display: flex;
+        justify-content: center;
+        .gallery_left {
+            margin: 20px;
+            .picture_top {
+                
+                width: 500px;
+                height: 400px;
+
+            }
+        }
+
+        .info_right {
+            border: 1px solid black;
+            width: 500px;
+            height: 400px;
+            margin: 20px;
+            .info_right_header {
+
+            }
+
+            .info_right_text {
+
+            }
+
+            .rooms {
+
+            }
+
+            .rooms_for_people {
+
+            }
+
+            .pets {
+
+            }
+        }
+
+        
+    }
 }

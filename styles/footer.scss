@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+.contacts {
+    padding: 20px;
+    font-size: 20px;
+}
+
 footer {
     font-family: 'Quicksand', sans-serif;
     background-color:#aea790;
-    padding: 50px;
+    padding: 30px;
     color: aliceblue;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -15,7 +20,7 @@ footer {
     font-size: 40px;
     text-decoration: none;
     color: aliceblue;
-    padding: 5px;
+    padding: 10px;
     &:hover {
         color: #833AB4;
         transition: 1s;

@@ -65,4 +65,30 @@
 }
 .promo .about_home_right .pic_text .list .plain_text {
   font-size: 18px;
-}/*# sourceMappingURL=promo.css.map */
+}
+
+.promo .pictures_home {
+  margin-top: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.promo .pictures_home .gallery_left {
+  margin: 20px;
+}
+
+.promo .pictures_home .gallery_left .picture_top {
+  width: 500px;
+  height: 400px;
+}
+
+.promo .pictures_home .info_right {
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+}

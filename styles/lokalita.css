@@ -1,9 +1,9 @@
 .location_body {
-  height: 1800px;
+  height: 2500px;
 }
 .location_body .location_header {
   font-family: "Quicksand", sans-serif;
-  margin: 250px;
+  margin: 200px;
   text-align: center;
 }
 .location_body .location_header .location_name {
@@ -14,37 +14,53 @@
   padding: 30px;
   font-size: 18px;
 }
-.location_body .empty_line {
-  background-color: #aea790;
-}
+
 .location_body .location_container {
   font-family: "Quicksand", sans-serif;
-  background-color: rgba(172, 170, 163, 0.2588235294);
-  display: flex;
+  background-color: #acaaa342;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto) [2];
+  grid-template-columns: repeat(2, auto);
   margin-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
-.location_body .location_container .castle_image {
+
+.location_body .location_container .box {
+  position: relative;
+}
+
+.location_body .location_container .box .location_image {
   height: 370px;
-  width: 650px;
-  padding: 15px;
+  width: 600px;
+  padding-top: 15px;
+  margin-left: 60px;
 }
-.location_body .location_container .cave_image {
-  height: 370px;
-  width: 1125px;
-  padding: 15px;
+
+.location_body .location_container .box .box_name {
+  font-family: "Quicksand", sans-serif;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-shadow: 10px 10px 10px #000000;
 }
-.location_body .location_container .canyon_image {
-  height: 370px;
-  width: 1125px;
-  padding: 15px;
+
+.location_body .location_container .box .box_text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-family: "Quicksand", sans-serif;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-.location_body .location_container .location_container_header .location_container_name {
-  padding: 15px;
-  color: #aea790;
+
+.location_body .location_container .box .box_text:hover {
+  text-decoration: none;
 }
-.location_body .location_container .location_container_header .location_container_text {
-  padding: 15px;
-  font-size: 18px;
-}/*# sourceMappingURL=lokalita.css.map */
