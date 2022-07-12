@@ -10,7 +10,7 @@
   font-size: 50px;
   font-weight: 900;
   text-decoration: overline;
-  margin: 150px;
+  margin: 150px 0;
 }
 
 .contact_text {
@@ -55,9 +55,10 @@
 .map .google_map {
   width: 1100px;
   height: 700px;
+  max-width: 100%;
 }
 .map .map_header {
   font-family: "Quicksand", sans-serif;
   padding: 20px;
   color: aliceblue;
-} /*# sourceMappingURL=kontakt.css.map */
+}/*# sourceMappingURL=kontakt.css.map */

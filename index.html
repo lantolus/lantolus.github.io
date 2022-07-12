@@ -14,8 +14,7 @@
       src="https://kit.fontawesome.com/5f94a8d830.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./index.js"></script>
-
+    <script src="js/index.js"></script>
     <title>Jancova chata</title>
   </head>
   <body>
@@ -23,7 +22,6 @@
       <p class="name">Jančova chata</p>
       <nav class="nav nav-main" id="nav-main">
         <!-- <i class="fa-solid fa-bed" aria-hidden="true"></i>-->
-        <p class="name">Jančova chata</p>
         <a class="button" href="index.html">Chata</a>
         <a class="button" href="lokalita.html">Lokalita</a>
         <a class="button" href="cennik.html">Cenník</a>
@@ -71,25 +69,39 @@
                 </div>
             </div>
         </div>
-        <div class="pictures_home">
-            <div class="gallery_left">
-                <img class="picture_top" src="pics/DSC_0029.JPG" alt="">
+        <div class="gallery">
+          <div class="row">
+            <div class="column">
+              <img src="/pics/photo01.JPG" alt="Nature" onclick="myFunction(this);">
             </div>
-            <div class="info_right">
-                <h1 class="info_right_header">Priestory</h1>
-                <p class="info_right_text">Auctor urna nunc id cursus metus aliquam. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Aliquet enim tortor at auctor urna nunc id. Porttitor leo a diam sollicitudin tempor. Risus in hendrerit gravida rutrum quisque. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Orci porta non pulvinar neque. Ornare suspendisse sed nisi lacus sed viverra tellus in hac</p>
-                <i class="rooms">4 dvojlôžkové izby</i>
-                <i class="rooms">1 dvojbunková izba</i>
-                <i class="room_for_people">Priestory pre 23 ľudí</i>
-                <i class="pets">Pet friendly</i>
+            <div class="column">
+              <img src="/pics/photo02.JPG" alt="Snow" onclick="myFunction(this);">
             </div>
-            
-           
+            <div class="column">
+              <img src="/pics/photo03.JPG" alt="Mountains" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="/pics/photo04.JPG" alt="Lights" onclick="myFunction(this);">
+            </div>
+          </div>
+
+          <!-- The expanding image container -->
+          <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <span class="gallery__arrow gallery__arrow-l" onclick="moveImage('left')"><i class="fa-solid fa-arrow-left"></i></span>
+            <span class="gallery__arrow gallery__arrow-r" onclick="moveImage()"><i class="fa-solid fa-arrow-right"></i></span>
+          
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%" src="/pics/photo01.JPG">
+          
+            <!-- Image text -->
+            <div id="imgtext"></div>
+          </div> 
         </div>
       </div>
       <div class="location_home"></div>
     </div>
-</body>
 <footer>
     <div>
         <div class="contacts">
@@ -100,4 +112,5 @@
         <a href="https://www.instagram.com/lantolus/" class="fa-brands fa-instagram" aria-hidden="true" target="_blank"></a>
     </div>
   </footer>
+</body>
 </html>

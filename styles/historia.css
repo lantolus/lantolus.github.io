@@ -1,20 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 .history_header {
-  margin-top: 150px;
   padding: 50px;
   text-align: center;
   color: #aea790;
   font-family: "Quicksand", sans-serif;
   font-size: 32px;
+  margin-top: 20%;
+}
+@media (min-width: 768px) {
+  .history_header {
+    margin-top: 150px;
+  }
 }
 
 .history_container {
   font-family: "Quicksand", sans-serif;
   background-color: rgba(172, 170, 163, 0.2588235294);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-bottom: 50px;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 1170px) {
+  .history_container {
+    flex-direction: row;
+    text-align: left;
+  }
 }
 .history_container .utulna_image {
   height: 370px;
@@ -31,4 +44,13 @@
 .history_container .history_container_header .history_container_text {
   padding: 15px;
   font-size: 18px;
+}
+
+.history_left {
+  text-align: center;
+}
+@media (min-width: 1170px) {
+  .history_left {
+    text-align: initial;
+  }
 }/*# sourceMappingURL=historia.css.map */
