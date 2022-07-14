@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact_message {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #aea790;
+  font-size: 50px;
+  font-weight: 900;
+  text-decoration: overline;
+  margin: 100px;
+}
+
+.contact_text {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.icons {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  .phone {
+    color: #aea790;
+    text-decoration: none;
+    padding-bottom: 1rem;
+  }
+
+  .phone_a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .email {
+    text-decoration: none;
+    color: #aea790;
+    padding-bottom: 1rem;
+  }
+
+  .email_a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .fa-map-marker {
+    color: #aea790;
+  }
+}
+
+.map {
+  text-align: center;
+  padding: 20px;
+  background-color: #aea790;
+
+  .google_map {
+    width: 1100px;
+    height: 700px;
+    max-width: 100%;
+  }
+  .map_header {
+    font-family: "Quicksand", sans-serif;
+    padding: 20px;
+    color: aliceblue;
+  }
+}
