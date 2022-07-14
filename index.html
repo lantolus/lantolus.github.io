@@ -33,7 +33,16 @@
       </nav>
     </div>
     <div class="picture">
-        <img class= "welcome_pic"src="pics/DSC_0038croped.jpg" alt="" srcset="pics/DSC_0038-600-croped.jpg 600w, pics/DSC_0038croped.jpg 1300w">
+      <picture>
+        <source
+          srcset="pics/DSC_0038croped.jpg"
+          media="(min-width: 1000px)"
+          />
+        <img src="pics/DSC_0038-600-croped.jpg" class="welcome_pic"/>
+      </picture>
+        <!-- <img class="welcome_pic" src="pics/DSC_0038-600-croped.jpg" alt="" 
+        srcset="pics/DSC_0038-600-croped.jpg 600w, pics/DSC_0038croped.jpg 1300w" 
+        sizes="(max-width: 1200px) 600px"> -->
         <div class="motto">Oddýchnite si v náruči prírody</div>
     </div>
 

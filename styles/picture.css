@@ -8,8 +8,6 @@
   width: 100%;
   height: 100vh;
   margin: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .picture .motto {
   font-family: "Quicksand", sans-serif;
