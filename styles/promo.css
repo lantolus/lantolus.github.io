@@ -63,7 +63,6 @@
   border-radius: 5px 5px 5px 5px;
   background-color: aliceblue;
   width: 300px;
-  height: 400px;
   padding: 35px;
   transform: translate(-50%, -50%);
 }
@@ -79,6 +78,9 @@
 .promo .about_home_right .pic_text .list ul {
   list-style: none;
 }
+.promo .about_home_right .pic_text .list li:first-child .name_location {
+  line-height: normal;
+}
 .promo .about_home_right .pic_text .list .name_location {
   color: #aea790;
   font-size: 20px;
@@ -89,11 +91,6 @@
 }
 .promo .about_home_right .pic_text .list .plain_text {
   font-size: 18px;
-}
-.promo .about_home_right .pic_text .list:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 .promo .pictures_home {
   margin-top: 400px;

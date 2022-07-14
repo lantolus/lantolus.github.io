@@ -70,7 +70,6 @@
         border-radius: 5px 5px 5px 5px;
         background-color: aliceblue;
         width: 300px;
-        height: 400px;
         padding: 35px;
         transform: translate(-50%, -50%);
 
@@ -86,6 +85,11 @@
         ul {
           list-style: none;
         }
+
+        li:first-child .name_location {
+          line-height: normal;
+        }
+
         .name_location {
           color: #aea790;
           font-size: 20px;
@@ -99,11 +103,11 @@
         }
       }
 
-      .list:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+      // .list:after {
+      //   content: "";
+      //   display: table;
+      //   clear: both;
+      // }
     }
   }
   .pictures_home {
