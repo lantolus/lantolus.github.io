@@ -14,7 +14,7 @@
       src="https://kit.fontawesome.com/5f94a8d830.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
     <title>Jancova chata</title>
   </head>
   <body>
@@ -33,7 +33,7 @@
       </nav>
     </div>
     <div class="picture">
-        <img class= "welcome_pic"src="pics/DSC_0038croped.jpg" alt="">
+        <img class= "welcome_pic"src="pics/DSC_0038croped.jpg" alt="" srcset="pics/DSC_0038-600-croped.jpg 600w, pics/DSC_0038croped.jpg 1300w">
         <div class="motto">Oddýchnite si v náruči prírody</div>
     </div>
 
@@ -72,16 +72,16 @@
         <div class="gallery">
           <div class="row">
             <div class="column">
-              <img src="/pics/photo01.JPG" alt="Nature" onclick="myFunction(this);">
+              <img src="/pics/photo-600-01.JPG" alt="Nature" onclick="loadImage('1');">
             </div>
             <div class="column">
-              <img src="/pics/photo02.JPG" alt="Snow" onclick="myFunction(this);">
+              <img src="/pics/photo-600-02.JPG" alt="Snow" onclick="loadImage('2');">
             </div>
             <div class="column">
-              <img src="/pics/photo03.JPG" alt="Mountains" onclick="myFunction(this);">
+              <img src="/pics/photo-600-03.JPG" alt="Mountains" onclick="loadImage('3');">
             </div>
             <div class="column">
-              <img src="/pics/photo04.JPG" alt="Lights" onclick="myFunction(this);">
+              <img src="/pics/photo-600-04.JPG" alt="Lights" onclick="loadImage('4');">
             </div>
           </div>
 
@@ -93,7 +93,9 @@
             <span class="gallery__arrow gallery__arrow-r" onclick="moveImage()"><i class="fa-solid fa-arrow-right"></i></span>
           
             <!-- Expanded image -->
-            <img id="expandedImg" style="width:100%" src="/pics/photo01.JPG">
+            <img id="expandedImg" style="width:100%" src="/pics/photo01.JPG"
+              srcset="/pics/photo-600-01.JPG 600w,
+              /pics/photo01.JPG 1300w">
           
             <!-- Image text -->
             <div id="imgtext"></div>

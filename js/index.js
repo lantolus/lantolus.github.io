@@ -15,37 +15,41 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function myFunction(imgs) {
-  // Get the expanded image
+let leftArrow = document.querySelector(".gallery__arrow.gallery__arrow-l");
+let rightArrow = document.querySelector(".gallery__arrow.gallery__arrow-r");
+function loadImage(id) {
+  if (id == 4) {
+    rightArrow.style.display = "none";
+  } else {
+    rightArrow.style.display = "initial";
+  }
+
+  if (id == 1) {
+    leftArrow.style.display = "none";
+  } else {
+    leftArrow.style.display = "block";
+  }
+
+  if (id >= 5 || id == 0) {
+    return false;
+  }
   var expandImg = document.getElementById("expandedImg");
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  // imgText.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
+
+  let width = screen.width;
+  if (width <= 600) {
+    expandImg.setAttribute("srcset", "/pics/photo-600-0" + id + ".JPG");
+  } else {
+    expandImg.setAttribute("srcset", "/pics/photo0" + id + ".JPG");
+  }
   expandImg.parentElement.style.display = "block";
-  current = Number(imgs.src.charAt(imgs.src.length - 5));
+  current = id;
 }
 
 var current = 1;
 function moveImage(direction) {
   if (direction == "left") {
-    console.log(direction);
     loadImage(current - 1);
   } else {
-    console.log(typeof current);
     loadImage(current + 1);
   }
-}
-
-function loadImage(id) {
-  // var image = document.getElementById("image" + id);
-  if (id >= 5 || id == 0) {
-    return false;
-  }
-  var image = document.getElementById("expandedImg");
-  image.setAttribute("src", "/pics/photo0" + id + ".JPG");
-  current = id;
 }

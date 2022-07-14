@@ -65,7 +65,6 @@
   width: 300px;
   height: 400px;
   padding: 35px;
-  overflow: auto;
   transform: translate(-50%, -50%);
 }
 @media (min-width: 1300px) {
@@ -186,6 +185,7 @@
 
 .gallery__arrow-l {
   left: 1%;
+  display: none;
 }
 
 .gallery__arrow-r {
