@@ -34,15 +34,23 @@
 }
 .location_body .location_container .box {
   position: relative;
+  text-align: center;
 }
 .location_body .location_container .box .location_image {
   height: 370px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 100vw;
   padding-top: 15px;
 }
-@media (min-width: 1400px) {
+@media (min-width: 600px) {
   .location_body .location_container .box .location_image {
     width: 600px;
+  }
+}
+@media (min-width: 1400px) {
+  .location_body .location_container .box .location_image {
     margin-left: 60px;
   }
 }
