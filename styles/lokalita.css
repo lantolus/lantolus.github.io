@@ -1,6 +1,3 @@
-.location_body {
-  height: 2500px;
-}
 .location_body .location_header {
   font-family: "Quicksand", sans-serif;
   margin: 10% 0;
@@ -39,8 +36,7 @@
 .location_body .location_container .box .location_image {
   height: 370px;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-width: 100vw;
   padding-top: 15px;
 }
@@ -77,4 +73,6 @@
 }
 .location_body .location_container .box .box_text:hover {
   text-decoration: none;
-}/*# sourceMappingURL=lokalita.css.map */
+}
+
+/*# sourceMappingURL=lokalita.css.map */
