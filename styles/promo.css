@@ -1,60 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 .promo .about_home_left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 @media (min-width: 1300px) {
   .promo .about_home_left {
     display: block;
   }
 }
-
 .promo .about_home_left .text_home {
   font-family: "Quicksand", sans-serif;
   position: relative;
   width: 300px;
-  height: 400px;
+  height: 450px;
   padding: 5px;
-  top: 90px;
+  top: 1rem;
 }
-
 @media (min-width: 1300px) {
   .promo .about_home_left .text_home {
     margin: 100px;
     left: 150px;
+    top: 140px;
   }
 }
-
 .promo .about_home_left .text_home .about_name {
   color: #aea790;
   text-decoration: overline;
 }
-
 .promo .about_home_left .text_home .about_cottage {
   margin: 5px;
   font-size: 18px;
 }
-
 @media (min-width: 1300px) {
   .promo .about_home_left .text_home .about_cottage {
     padding: 30px;
   }
 }
-
 .promo .about_home_right .pic_text {
   position: relative;
   font-family: "Quicksand", sans-serif;
 }
-
 .promo .about_home_right .pic_text .small_pic {
   position: relative;
   width: 500px;
@@ -62,17 +48,14 @@
   height: 450px;
   border-radius: 5px 5px 5px 5px;
 }
-
 @media (min-width: 1300px) {
   .promo .about_home_right .pic_text .small_pic {
     position: absolute;
     top: -160px;
     left: 60%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
-
 .promo .about_home_right .pic_text .list {
   position: absolute;
   top: 50%;
@@ -82,31 +65,25 @@
   background-color: aliceblue;
   width: 300px;
   padding: 35px;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
 @media (min-width: 1300px) {
   .promo .about_home_right .pic_text .list {
     top: -60px;
     left: 72%;
   }
 }
-
 .promo .about_home_right .pic_text .list .fa-map-marker {
   color: #aea790;
 }
-
 .promo .about_home_right .pic_text .list ul {
   list-style: none;
 }
-
 .promo .about_home_right .pic_text .list li:first-child .name_location {
   display: inline-block;
   line-height: normal;
   padding-bottom: 1rem;
 }
-
 .promo .about_home_right .pic_text .list .name_location {
   color: #aea790;
   font-size: 20px;
@@ -115,37 +92,27 @@
   padding: 15px;
   line-height: 60px;
 }
-
 .promo .about_home_right .pic_text .list .plain_text {
   font-size: 18px;
 }
-
 .promo .pictures_home {
   margin-top: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .promo .pictures_home .gallery_left {
   margin: 20px;
 }
-
 .promo .pictures_home .gallery_left .picture_top {
   width: 500px;
   height: 400px;
 }
-
 .promo .pictures_home .info_right {
   border: 1px solid black;
   width: 500px;
   height: 400px;
   margin: 20px;
 }
-
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
@@ -199,14 +166,12 @@
 .gallery {
   margin-top: 40px;
 }
-
 @media (min-width: 800px) {
   .gallery {
     width: 50%;
     margin: 0 auto;
   }
 }
-
 @media (min-width: 1300px) {
   .gallery {
     padding-top: 15%;
@@ -216,8 +181,7 @@
 .gallery__arrow {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   cursor: pointer;
   color: white;
   font-size: 3rem;
@@ -230,4 +194,4 @@
 
 .gallery__arrow-r {
   right: 1%;
-}
+}/*# sourceMappingURL=promo.css.map */
