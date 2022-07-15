@@ -113,6 +113,7 @@
   height: 400px;
   margin: 20px;
 }
+
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
@@ -168,12 +169,13 @@
 }
 @media (min-width: 800px) {
   .gallery {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
 }
 @media (min-width: 1300px) {
   .gallery {
+    width: 50%;
     padding-top: 15%;
   }
 }

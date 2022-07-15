@@ -121,20 +121,6 @@
       width: 500px;
       height: 400px;
       margin: 20px;
-      .info_right_header {
-      }
-
-      .info_right_text {
-      }
-
-      .rooms {
-      }
-
-      .rooms_for_people {
-      }
-
-      .pets {
-      }
     }
   }
 }
@@ -194,10 +180,11 @@
 .gallery {
   margin-top: 40px;
   @media (min-width: 800px) {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
   @media (min-width: 1300px) {
+    width: 50%;
     padding-top: 15%;
   }
 }
