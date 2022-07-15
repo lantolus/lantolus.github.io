@@ -87,7 +87,9 @@
         }
 
         li:first-child .name_location {
+          display: inline-block;
           line-height: normal;
+          padding-bottom: 1rem;
         }
 
         .name_location {
@@ -173,6 +175,8 @@
 /* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
   position: relative;
+  margin-bottom: 40px;
+  
   //   display: none;
 }
 
@@ -196,6 +200,7 @@
 }
 
 .gallery {
+  margin-top: 40px;
   @media (min-width: 800px) {
     width: 50%;
     margin: 0 auto;

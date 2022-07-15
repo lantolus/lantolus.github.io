@@ -10,14 +10,14 @@
   font-size: 50px;
   font-weight: 900;
   text-decoration: overline;
-  margin: 150px 0;
+  margin: 100px;
 }
 
 .contact_text {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
-  margin: 50px;
+  margin: 30px;
 }
 
 .icons {
@@ -28,21 +28,37 @@
   font-size: 25px;
   margin: 50px;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .icons .phone {
   color: #aea790;
+  text-decoration: none;
+  padding-bottom: 1rem;
 }
+
 .icons .phone_a {
   text-decoration: none;
   color: black;
 }
+
 .icons .email {
+  text-decoration: none;
   color: #aea790;
+  padding-bottom: 1rem;
 }
+
 .icons .email_a {
   text-decoration: none;
   color: black;
 }
+
 .icons .fa-map-marker {
   color: #aea790;
 }
@@ -52,13 +68,15 @@
   padding: 20px;
   background-color: #aea790;
 }
+
 .map .google_map {
   width: 1100px;
   height: 700px;
   max-width: 100%;
 }
+
 .map .map_header {
   font-family: "Quicksand", sans-serif;
   padding: 20px;
   color: aliceblue;
-}/*# sourceMappingURL=kontakt.css.map */
+}

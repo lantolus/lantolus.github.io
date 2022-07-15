@@ -10,14 +10,14 @@
   font-size: 50px;
   font-weight: 900;
   text-decoration: overline;
-  margin: 150px 0;
+  margin: 100px;
 }
 
 .contact_text {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
-  margin: 50px;
+  margin: 30px;
 }
 
 .icons {
@@ -28,9 +28,13 @@
   font-size: 25px;
   margin: 50px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 
   .phone {
     color: #aea790;
+    text-decoration: none;
+    padding-bottom: 1rem;
   }
 
   .phone_a {
@@ -39,7 +43,9 @@
   }
 
   .email {
+    text-decoration: none;
     color: #aea790;
+    padding-bottom: 1rem;
   }
 
   .email_a {
