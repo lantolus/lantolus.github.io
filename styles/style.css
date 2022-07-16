@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .head {
   font-family: "Quicksand", sans-serif;
   position: absolute;
@@ -151,4 +158,33 @@
   display: none;
 }
 
-/*# sourceMappingURL=header.css.map */
+body {
+  background-color: aliceblue;
+}
+
+.contacts {
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer {
+  font-family: "Quicksand", sans-serif;
+  background-color: #aea790;
+  padding: 30px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+}
+.fa-instagram:hover {
+  color: #833AB4;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */

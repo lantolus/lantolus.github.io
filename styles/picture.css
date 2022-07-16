@@ -17,8 +17,6 @@
   border: 2px solid #aea790;
   border-radius: 5px 5px 5px 5px;
   text-align: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -37,4 +35,6 @@
     background-color: rgba(240, 248, 255, 0.199);
     color: aliceblue;
   }
-}/*# sourceMappingURL=picture.css.map */
+}
+
+/*# sourceMappingURL=picture.css.map */
